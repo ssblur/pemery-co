@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+// Customization
+
+// You can easily customize Bulma with your own variables.
+// Just uncomment the following block to see the result.
+
+$dark: #2C2F33;
+$black: #000;
+$red: #f00;
+$dull-red: #f88;
+$grey-light: #d0d0d0;
+
+$tint: #0006;
+$border-tint: #000a;
+$tint-invert: #fff9;
+
+$primary: $black;
+$primary-invert: $red;
+
+$background: $dark;
+$text: $grey-light;
+$link: $primary-invert;
+
+$title-color: $dull-red;
+
+$card-color: $dull-red;
+$card-border-color: $tint-invert;
+$card-background-color: $tint;
+$card-header-color: $red;
+
+$button-background-color: $tint;
+$button-border-color: $border-tint;
+$button-color: $dull-red;
+$button-hover-color: $red;
+$button-focus-color: $dull-red;
+$button-active-color: $tint;
+
+// A soft recolor, in case the theme changes or the image sees use on a light-mode page.
+.made-with-bulma{
+    filter: invert(88%) sepia(20%) saturate(6960%) hue-rotate(304deg) brightness(98%) contrast(129%);
+}
+
+@import "../node_modules/bulma/bulma";
+ 
