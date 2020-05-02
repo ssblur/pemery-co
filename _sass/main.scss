@@ -36,6 +36,14 @@ $button-hover-color: $red;
 $button-focus-color: $dull-red;
 $button-active-color: $tint;
 
+// Changing the font to Quicksand. Love this font.
+@font-face{
+    font-family: Quicksand;
+    src: url('quicksand.ttf');
+}
+$font-family-quicksand: Quicksand;
+$family-primary: $font-family-quicksand;
+
 // A soft recolor, in case the theme changes or the image sees use on a light-mode page.
 .made-with-bulma{
     filter: invert(88%) sepia(20%) saturate(6960%) hue-rotate(304deg) brightness(98%) contrast(129%);
